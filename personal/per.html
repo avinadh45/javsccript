@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal</title>
+    <link rel="stylesheet" href="per.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+</head>
+<body>
+ <div id="header">
+    <div class="container">
+        <nav>
+          <ul id="sidemenu"> 
+            <li><a href="#header">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#services">services</a></li>
+            <li><a href="#">portfolio</a></li>
+            <li><a href="#contact">content</a></li>
+            <i class="fa-regular fa-circle-xmark"onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars"></i>  
+        </nav>
+        <div class="header-text" onclick="openmenu()">
+          <h1>Hi, I'm<span> Avinadh kp</span> <br> from India</h1>
+          <p>Mearn stack Developer</p>
+        </div>
+    </div>
+ </div>  
+ <div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="image/WhatsApp Image 2023-10-12 at 10.32.06_a6cf4396.jpg">
+      </div>
+      <div class="about-col-2">
+        <h1 class="sub-title">About me</h1>
+        <p> I am a keen,hard working,reliable and <br>excellent time keeper .i am abright and receptive person,<br>i am good at working using my own inititiative and i am flexable in my apporachto work duties<br>I have a good sence of humor and a pleasant approach</p>
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+          <p class="tab-links"onclick="opentab('expericence')"> expericene</p>
+          <p class="tab-links"onclick="opentab('education')">education</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>mearn stack Development</span></li>
+            <li><span>web development</span></li>
+            <li><span>custmor service</span></li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="expericene">
+          <ul>
+            <li><span>3 month of coding</span></li>
+            <li><span>2 static web site</span></li>
+            <li><span>3 month experince in array and pattern</span></li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span>2020</span><br>B.com</li>
+            <li><span>2018</span><br>+2</li>
+            <li><span>2017</span><br>10th</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div> 
+ <div id="services">
+<div class="comtainer">
+<h1 class="atext">my services</h1>
+<div class="services-list">
+  <div>
+    <h2>web desing</h2>
+<p>freelanc avilable</p>
+    <p>   desing website </p>
+    <a href="#">learn more</a>
+  </div>
+
+</div>
+ </div>
+</div>
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">my work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="image/Screenshot 2023-10-12 201650.png">
+        
+      </div>
+    </div>
+  </div>
+</div>
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">contact me</h1>
+        <p>avinadhkp@gmail.com</p>
+        <p>
+          80898506988
+        </p>
+        <div class="social-icons">
+          <a href="https://instagram.com/avinadh5?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa-brands fa-instagram"></i>"</a>
+          <a href="https://www.linkedin.com/in/avinadh-kp-8a21b2296?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <a href="" class="btn btn2">D ownload cv</a>
+      </div>
+      <div class="contact-right">
+      <form>
+        <input type="text" name="Name" placeholder="your name" required>
+<input type="email" name="email" placeholder="your Email" required>
+<textarea name="message" rows="6" placeholder="your message"></textarea>
+<button type="submit" class="btn btn2">submit</button>
+
+
+
+      </form>
+    </div>
+  </div>
+  </div>
+  
+</div>
+ <script >
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classlist.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classlist.remove("active-tab");
+    }
+event.currentTarget.classlist.add("active-link");
+document.getElementById(tabname).classlist.add("active-tab");
+}
+ </script>
+ <script>
+  var sidemenu = document.getElementById("sidemenu");
+  function openmenu(){
+    sidemenu.style.right = "0";
+  }
+  function closemenu(){
+    sidemenu.style.right = "-200";
+  }
+ </script>
+</body>
+</html>

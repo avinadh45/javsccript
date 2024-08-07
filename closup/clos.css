@@ -1,0 +1,59 @@
+
+.body{
+padding: 0;
+margin: 0;
+}
+
+.logo{
+    margin-left: 100px;
+    width: 160px;
+    height:50px;
+  
+}
+.custom-navbar {
+    
+        padding-top: 20px; /* Adjust the top padding as needed */
+        padding-bottom: 20px; /* Adjust the bottom padding as needed */
+      }
+      .nav-items{
+font-size: 80px;
+font-weight: 500;
+        position: relative;
+        text-align: center;
+      }
+    .nav-link{
+  font-size: 100px;
+  font-weight: 100px;
+      height: 50px;
+      color: aliceblue !important;
+      
+    }
+.nav-link:hover{
+      background-color: black !important;
+      color: red !important;
+}
+
+.container{
+  background-color: black;
+  width: 1500px;
+  height: 700px;
+}
+
+.section{
+  padding: 100;
+}
+.home{
+  max-width: 1500px;
+  height: 700px;
+  margin: auto;
+  width: 100%;
+  display: flex;
+  background-color: black;
+  
+}
+.home-text{
+  padding-left: 450px;
+  color: #fff;
+  font-size: 350px;
+  font-weight: 300px;
+}

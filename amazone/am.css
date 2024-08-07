@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 70px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 110px;
+}
+.logo{
+    background-size: cover;
+    background-image: url(image/amazon_logo.png);
+    height: 50px;
+    width: 110px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-radius: 4px;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #febd68;
+    color: #0f1111;
+}
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-cart i{
+    font-size: 25px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.pannel{
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.pannel-opt p{
+    margin-left: 10px;
+    display: inline;
+}
+.pannel-opt{
+    width: 90%;
+    font-size: 0.85rem;
+}
+.game-section{
+    background-image: url(image/71U-Q+N7PXL._SX3000_.jpg);
+    height: 350px;
+    background-size: cover;
+    align-items: flex-end;
+    display: flex;
+}
+.gamsg{
+    background-color: #f3f3f3;
+color: black;
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 0.85rem;
+width: 80%;
+margin-bottom: 25px;
+}
+.shop-sec{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: darkgray;
+}
+.box{
+    height: 400px;
+    border: 2px solid black;
+    width: 23%;
+    background-color: white;
+}
+.boximage1{
+    background-image: url(image/kids.jpg);
+    height: 300px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+margin-left: 20px;
+margin-right: 20px;
+}
+.boximg2{
+    background-image: url(image/kitchen.jpg);
+    height: 300px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+margin-left: 20px;
+margin-right: 20px;
+}
+.boximg3{
+    background-image: url(image/ele.jpg);
+    height: 300px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+margin-left: 20px;
+margin-right: 20px;
+}
+.img5{
+background-image: url(image/health.jpg);
+height: 300px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+margin-left: 20px;
+margin-right: 20px;
+}
+.footer{
+    margin-top: 15px;
+}
+.foot-pannel1{
+    background-color: #37475a;
+    color: white;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-pannel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    align-items: center;
+   
+}
+.ul{
+    margin-top: 20px;
+    
+}
+.ul a{
+    display: block;
+    font-size: 0.85rem;
+    color: #dddd;
+}
